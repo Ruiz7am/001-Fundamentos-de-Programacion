@@ -1,0 +1,56 @@
+body {
+    background-color: #272525;
+    color: wheat;
+    font-family: Roboto Flex, sans-serif;
+}
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section .hidden {
+    display: none;
+}
+
+/* botón */
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 20px 20px;
+    font-size: 32px;
+    border-radius: 20px;
+background: #272525;
+box-shadow:  11px 11px 25px #1e1c1c,
+             -11px -11px 25px #302e2e;
+}
+.button:hover {
+    background: linear-gradient(145deg, #232121, #2a2828);
+    box-shadow:  11px 11px 25px #1e1c1c,
+                 -11px -11px 25px #302e2e;
+    cursor: pointer;
+}
+
+.buttonPressed {
+    box-shadow: inset 11px 11px 25px #1e1c1c,
+            inset -11px -11px 25px #302e2e;
+}
+  
+.button p {
+    margin: 0;
+    
+    padding: 0;
+}
+
+.button .emoji {
+    font-size: 50px;
+}
