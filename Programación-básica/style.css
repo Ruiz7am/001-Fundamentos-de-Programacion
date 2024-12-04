@@ -1,22 +1,25 @@
 body {
-    background-color: #272525;
-    color: wheat;
+    background-color: #655c7f;
+    color: lightseagreen;
     font-family: Roboto Flex, sans-serif;
 }
+
 .title {
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 50px;
+    margin-bottom: 100px;
+    justify-self: center;
+    width: 50%;
+    padding: 50px;
+    font-size: 36px;
     font-weight: 700;
+    border-radius: 50px;
+    box-shadow:  9px 9px 25px #2f2b3c,
+             -9px -9px 25px #9b8dc2;
 }
-section {
+.wrapper {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-section .hidden {
-    display: none;
 }
 
 /* botón */
@@ -27,22 +30,22 @@ section .hidden {
     justify-content: center;
     width: 100px;
     padding: 20px 20px;
+    color: #94FF9B;
     font-size: 32px;
-    border-radius: 20px;
-background: #272525;
-box-shadow:  11px 11px 25px #1e1c1c,
-             -11px -11px 25px #302e2e;
+    border-radius: 20px;;
+    box-shadow:  9px 9px 25px #2f2b3c,
+    -9px -9px 25px #9b8dc2;
 }
 .button:hover {
-    background: linear-gradient(145deg, #232121, #2a2828);
-    box-shadow:  11px 11px 25px #1e1c1c,
-                 -11px -11px 25px #302e2e;
+    background: linear-gradient(145deg, #5b5372, #6c6288);
+box-shadow:  9px 9px 25px #2f2b3c,
+             -9px -9px 25px #9b8dc2;
     cursor: pointer;
 }
 
 .buttonPressed {
-    box-shadow: inset 11px 11px 25px #1e1c1c,
-            inset -11px -11px 25px #302e2e;
+    box-shadow: inset 9px 9px 25px #2f2b3c,
+            inset -9px -9px 25px #9b8dc2;
 }
   
 .button p {
