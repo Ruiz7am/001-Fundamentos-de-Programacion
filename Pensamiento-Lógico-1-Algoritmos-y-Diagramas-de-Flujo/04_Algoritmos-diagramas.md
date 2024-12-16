@@ -1,4 +1,6 @@
-# Algoritmos
+# Algoritmos y Diagramas de Flujo
+
+## Algoritmos
 
 ### ¿Qué es un Algoritmo?
 
@@ -31,6 +33,37 @@ si no esta bien reparar boton y presionar de nuevo el boton
 si la luz enciende terminar el proceso 
 
 
+## Diagramas de flujo
+
+Conjunto de simbolos y de elementos que nos permiten represetnar los pasos de un proceso.
+
+Simbolos mas utilizados:
+
+Óvalo horizontal: Inicio de un flujo nos indica tambien el fin
+
+Rombo: La decision que se toma ante una sentencia o condicion
+
+Rectangulo: nos permite identificar una operacion, algoritmo, proceso o mensaje
+
+Flecha: conexion entre elementos, muestran el direccionamiento del proceso
 
 
+# Reto 1: ¿Hay dinero en el cajero electrónico?
 
+Inicio  
+Estoy en el cajero?  
+si = solicitar cantidad de dinero y pasar a linea 7  
+no = ir al cajero y regresar a linea 4  
+Hay dinero en el cajero?  
+si = nos da el dinero  
+no = volver a solicitar regresa a linea 5  
+fin  
+
+![diagrama-de-flujo](imagenes/Untitled%201.webp)
+
+<br>
+<br>
+
+Optimizar este proceso.
+
+![optimizado](imagenes/cajero.webp)
